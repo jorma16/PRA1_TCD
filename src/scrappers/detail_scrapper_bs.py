@@ -27,7 +27,7 @@ class DetailScrapper():
 
   @staticmethod
   def __fetch_bedrooms(url, bs):
-    bedrooms = "NA"
+    bedrooms = ""
     selector = "li.re-DetailHeader-featuresItem"
     items = bs.select(selector)
     for i in range(len(items)):
@@ -41,7 +41,7 @@ class DetailScrapper():
 
   @staticmethod
   def __fetch_bathrooms(url, bs):
-    bathrooms = "NA"
+    bathrooms = ""
     selector = "li.re-DetailHeader-featuresItem"
     items = bs.select(selector)
     for i in range(len(items)):
@@ -54,6 +54,90 @@ class DetailScrapper():
     return bathrooms
  
   @staticmethod
+  def __fetch_sqm(url, bs):
+    sqm = ""
+    selector = "li.re-DetailHeader-featuresItem"
+    items = bs.select(selector)
+    for i in range(len(items)):
+      item = items[i].getText()
+      if "m²" in item:
+        sqm = item.replace(" m²", "")
+
+    return sqm
+
+  @staticmethod
+  def __fetch_floor(url, bs):
+    floor = ""
+    selector = "li.re-DetailHeader-featuresItem"
+    items = bs.select(selector)
+    for i in range(len(items)):
+      item = items[i].getText()
+      if "Planta" in item:
+        floor = item.replace("ª Planta", "")
+
+    return floor
+
+  @staticmethod
+  def __fetch_type(url, bs):
+    type = ""
+    selector = "div.re-DetailFeaturesList-featureContent > p.re-DetailFeaturesList-featureLabel"
+    items = bs.select(selector)
+    for i in range(len(items)):
+      item = items[i].getText()
+      if "Tipo de inmueble" in item:
+        type = items[i].nextSibling.getText()
+
+    return type
+
+  @staticmethod
+  def __fetch_orientation(url, bs):
+    orientation = ""
+    selector = "div.re-DetailFeaturesList-featureContent > p.re-DetailFeaturesList-featureLabel"
+    items = bs.select(selector)
+    for i in range(len(items)):
+      item = items[i].getText()
+      if "Orientación" in item:
+        orientation = items[i].nextSibling.getText()
+
+    return orientation
+  
+  @staticmethod
+  def __fetch_condition(url, bs):
+    condition = ""
+    selector = "div.re-DetailFeaturesList-featureContent > p.re-DetailFeaturesList-featureLabel"
+    items = bs.select(selector)
+    for i in range(len(items)):
+      item = items[i].getText()
+      if "Estado" in item:
+        condition = items[i].nextSibling.getText()
+
+    return condition
+
+  @staticmethod
+  def __fetch_hot_water(url, bs):
+    hot_water = ""
+    selector = "div.re-DetailFeaturesList-featureContent > p.re-DetailFeaturesList-featureLabel"
+    items = bs.select(selector)
+    for i in range(len(items)):
+      item = items[i].getText()
+      if "Agua caliente" in item:
+        hot_water = items[i].nextSibling.getText()
+
+    return hot_water
+
+  @staticmethod
+  def __fetch_elevator(url, bs):
+    elevator = ""
+    selector = "div.re-DetailFeaturesList-featureContent > p.re-DetailFeaturesList-featureLabel"
+    items = bs.select(selector)
+    for i in range(len(items)):
+      item = items[i].getText()
+      if "Ascensor" in item:
+        elevator = items[i].nextSibling.getText()
+
+    return elevator
+  
+  @staticmethod
   def fetch(url):
     res = requests.get(url, DetailScrapper.FAKE_HEADER)
     bs = BeautifulSoup(res.content, "html.parser")
@@ -61,15 +145,14 @@ class DetailScrapper():
     obj = {
       'price': DetailScrapper.__fetch_price(url, bs),
       'bedrooms': DetailScrapper.__fetch_bedrooms(url, bs),
-      'bathrooms': DetailScrapper.__fetch_bathrooms(url, bs)
+      'bathrooms': DetailScrapper.__fetch_bathrooms(url, bs),
+      'sqm': DetailScrapper.__fetch_sqm(url, bs),
+      'floor': DetailScrapper.__fetch_floor(url, bs),
+      'type': DetailScrapper.__fetch_type(url, bs),
+      'orientation': DetailScrapper.__fetch_orientation(url, bs),
+      'condition': DetailScrapper.__fetch_condition(url, bs),
+      'hot_water': DetailScrapper.__fetch_hot_water(url, bs),
+      'elevator': DetailScrapper.__fetch_elevator(url, bs)
     }
 
     return obj
-
-url = "https://www.fotocasa.es/es/comprar/vivienda/valencia-capital/aire-acondicionado-calefaccion-parking-ascensor/161495104/d"
-url2 = "https://www.fotocasa.es/es/comprar/vivienda/valencia-capital/no-amueblado/162369481/d"
-url3 = "https://www.fotocasa.es/es/comprar/vivienda/valencia-capital/ascensor/162793279/d"
-    
-print(DetailScrapper.fetch(url))
-print(DetailScrapper.fetch(url2))
-print(DetailScrapper.fetch(url3))
