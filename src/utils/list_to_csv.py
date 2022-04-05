@@ -1,9 +1,10 @@
 import csv
 
-def write(file_name='data.csv', columns=[], data=[]):
-  with open(file_name, 'a',) as csv_file:
+def write(file_name='data.csv', columns=[], data=[], write_headers=True):
+  with open(file_name, 'w' if write_headers else 'a',) as csv_file:
     writer = csv.writer(csv_file)
-    writer.writerow(columns)
+    if write_headers:
+      writer.writerow(columns)
 
     for d in data:
       item = []
