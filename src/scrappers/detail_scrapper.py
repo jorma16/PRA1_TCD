@@ -138,9 +138,10 @@ class DetailScrapper():
     return elevator
 
   @staticmethod
-  def fetch(url):
+  def fetch(url, province=""):
     res = requests.get(url, DetailScrapper.FAKE_HEADER)
     bs = BeautifulSoup(res.content, "html.parser")
+    print(f'Getting data for url: {url}')
 
     obj = {
       'price': DetailScrapper.__fetch_price(url, bs),
@@ -152,7 +153,8 @@ class DetailScrapper():
       'orientation': DetailScrapper.__fetch_orientation(url, bs),
       'condition': DetailScrapper.__fetch_condition(url, bs),
       'hot_water': DetailScrapper.__fetch_hot_water(url, bs),
-      'elevator': DetailScrapper.__fetch_elevator(url, bs)
+      'elevator': DetailScrapper.__fetch_elevator(url, bs),
+      'province': province
     }
 
     return obj

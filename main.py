@@ -14,6 +14,7 @@ output = 'csv'
 max_pages = 3
 headless = False
 append_file = False
+province = 'valencia'
 
 try:
   args = sys.argv[1:]
@@ -22,6 +23,7 @@ try:
   for argument, value in arguments:
     if argument in ('-s', '--search'):
       site = f'https://www.fotocasa.es/es/comprar/viviendas/{value}/todas-las-zonas/l'
+      province = value
     elif argument in ('-o', '--output'):
       output = value
     elif argument in('-p', '--max_pages'):
@@ -38,7 +40,7 @@ list = search.scrap(close=True)
 
 rows = []
 for url in list:
-  rows.append(DetailScrapper.fetch(url))
+  rows.append(DetailScrapper.fetch(url, province))
 
 write(columns=[
   'price',
@@ -50,5 +52,6 @@ write(columns=[
   'orientation',
   'condition',
   'hot_water',
-  'elevator'
+  'elevator',
+  'province'
 ], data=rows, write_headers=not append_file)

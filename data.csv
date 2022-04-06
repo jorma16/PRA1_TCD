@@ -1,91 +1,28 @@
-price,bedrooms,bathrooms,sqm,floor,type,orientation,condition,hot_water,elevator,link,province
-1490000,1,2,147,7,Ático,Sur,Casi nuevo,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-terraza-ascensor-amueblado/162588489/d,madrid
-1349000,6,2,296,,Piso,Oeste,A reformar,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-trastero-ascensor-no-amueblado/162174239/d,madrid
-166000,3,1,100,10,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/alcala-de-henares/calefaccion-terraza-ascensor/163031900/d,madrid
-2350000,2,2,177,2,Piso,Norte,Muy bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-trastero-ascensor/162897706/d,madrid
-2680000,3,3,255,,Piso,Sur,,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado/162352368/d,madrid
-625000,4,3,135,6,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-parking-terraza-trastero-ascensor/162445262/d,madrid
-315000,3,2,116,1,Piso,,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/aire-acondicionado-calefaccion-parking-trastero-ascensor-patio-no-amueblado/162535901/d,madrid
-1250000,3,4,140,2,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-terraza-trastero-ascensor-amueblado/161935522/d,madrid
-790000,4,2,144,,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-jardin-ascensor-patio/162742556/d,madrid
-247000,4,3,180,,Casa o chalet,,,Solar,,https://www.fotocasa.es/es/comprar/vivienda/villalbilla/calefaccion-jardin/162525710/d,madrid
-280000,3,1,76,,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-ascensor-no-amueblado/161919183/d,madrid
-250000,2,1,59,1,Piso,Oeste,Bien,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado/162871391/d,madrid
-188000,3,2,110,3,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/parla/calefaccion-parking-trastero-ascensor-piscina-parking-piscina/162904840/d,madrid
-435000,2,2,45,1,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-ascensor-amueblado-television/162328193/d,madrid
-590000,2,1,67,,Piso,,Bien,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-ascensor-no-amueblado/162956885/d,madrid
-320000,3,1,78,6,Piso,,Bien,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/ascensor/162295325/d,madrid
-96000,2,1,58,,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/majadahonda/calefaccion/162683028/d,madrid
-450000,3,2,145,1,Piso,Oeste,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-parking-zona-comunitaria-ascensor-piscina-parking-piscina-no-amueblado/163013651/d,madrid
-650000,2,2,78,1,Piso,Sur,Casi nuevo,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-ascensor/163004459/d,madrid
-925000,5,5,329,,Casa o chalet,Sur,Muy bien,Gas Natural,,https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/aire-acondicionado-calefaccion-parking-terraza-trastero-zona-comunitaria-piscina-parking-piscina-no-amueblado/162988707/d,madrid
-320000,3,2,131,3,Piso,Oeste,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/arroyomolinos-(madrid)/aire-acondicionado-calefaccion-terraza-trastero-ascensor-piscina-se-aceptan-mascotas-piscina/162948195/d,madrid
-240000,2,1,80,2,Ático,Este,Muy bien,Gas Natural,,https://www.fotocasa.es/es/comprar/vivienda/arroyomolinos-(madrid)/calefaccion-terraza-trastero-piscina-se-aceptan-mascotas-piscina/162948188/d,madrid
-349900,3,3,300,,Casa o chalet,,,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-jardin-amueblado/162809651/d,madrid
-425000,4,5,290,,Casa adosada,,Muy bien,Gas Natural,,https://www.fotocasa.es/es/comprar/vivienda/arroyomolinos-(madrid)/aire-acondicionado-calefaccion-jardin-terraza-trastero-piscina-se-aceptan-mascotas-piscina/162540049/d,madrid
-118900,2,1,65,,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/getafe/aire-acondicionado-calefaccion-ascensor-amueblado/162537661/d,madrid
-380000,4,2,144,3,Piso,Sur,Bien,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-terraza-ascensor/162627867/d,madrid
-465000,3,1,81,6,Piso,Suroeste,Casi nuevo,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-ascensor/161296979/d,madrid
-219000,4,3,268,,Casa o chalet,,,,,https://www.fotocasa.es/es/comprar/vivienda/casarrubuelos/aire-acondicionado-calefaccion-parking-jardin-terraza-trastero-patio-amueblado/163034919/d,madrid
-184000,3,1,89,3,Piso,,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/alcorcon/calefaccion-jardin-terraza-ascensor-piscina/163033025/d,madrid
-1150000,4,2,276,1,Piso,Este,A reformar,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-jardin-trastero-ascensor-no-amueblado/162668251/d,madrid
-111000,3,1,72,2,Piso,,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-terraza-ascensor/163032887/d,madrid
-166000,3,1,100,10,Piso,,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/alcala-de-henares/calefaccion-terraza-ascensor/163032849/d,madrid
-194000,1,1,57,,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion/162987695/d,madrid
-1300000,2,2,107,4,Piso,Norte,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-ascensor-amueblado/162850753/d,madrid
-1300000,3,3,219,3,Piso,Este,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-parking-jardin-terraza-trastero-ascensor-amueblado-piscina/161361678/d,madrid
-840000,5,2,300,,Casa o chalet,,Bien,Gas Natural,,https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/calefaccion-parking-jardin-terraza-trastero-piscina-no-amueblado/162689794/d,madrid
-299000,3,1,110,,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-terraza-ascensor/162778615/d,madrid
-169000,2,1,52,,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-terraza/162987752/d,madrid
-713680,2,2,71,3,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/recoletos/160542716/d,madrid
-270000,1,1,56,2,Piso,Este,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-ascensor-no-amueblado/162733869/d,madrid
-224000,1,1,40,,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-trastero-amueblado/162987696/d,madrid
-145000,3,4,145,,Casa o chalet,,Bien,,,https://www.fotocasa.es/es/comprar/vivienda/ciempozuelos/aire-acondicionado-calefaccion-parking-jardin-terraza-patio/163032003/d,madrid
-111000,3,1,79,2,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-terraza-ascensor/163031967/d,madrid
-90000,1,1,55,,Piso,,Muy bien,,,https://www.fotocasa.es/es/comprar/vivienda/torres-de-la-alameda/calefaccion-parking-patio/163031922/d,madrid
-390000,2,1,55,2,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-ascensor/163031156/d,madrid
-185500,,1,29,,Loft,,Casi nuevo,Electricidad,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-no-amueblado/162192754/d,madrid
-350000,1,1,45,2,Piso,Sur,Muy bien,Electricidad,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-amueblado/155661260/d,madrid
-2950000,7,7,963,,Casa o chalet,Sur,Muy bien,Gasóleo,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-parking-jardin-terraza-trastero-piscina-se-aceptan-mascotas-no-amueblado/162616671/d,madrid
-930000,2,2,122,4,Piso,Este,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-trastero-ascensor-no-amueblado/162095326/d,madrid
-270000,4,3,183,,Casa o chalet,,,,,https://www.fotocasa.es/es/comprar/vivienda/daganzo-de-arriba/aire-acondicionado-parking/161432566/d,madrid
-477000,4,3,179,,Dúplex,Sureste,Muy bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/villaviciosa-de-odon/aire-acondicionado-calefaccion-parking-jardin-terraza-trastero-ascensor-piscina-no-amueblado/162208633/d,madrid
-188000,2,1,55,4,Piso,,Bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/ascensor/163020535/d,madrid
-132870,2,1,58,,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/ventas/163019344/d,madrid
-2200000,7,11,1080,,Casa o chalet,Norte,Casi nuevo,,,https://www.fotocasa.es/es/comprar/vivienda/ciudalcampo/aire-acondicionado-calefaccion-parking-jardin-terraza-trastero-piscina-internet/162626866/d,madrid
-210000,3,1,70,3,Piso,Noreste,Bien,Gasóleo,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/terraza-trastero-parking/163017957/d,madrid
-188000,2,1,55,4,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/ascensor/163017737/d,madrid
-170000,2,1,70,,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/daganzo-de-arriba/aire-acondicionado-parking/163017305/d,madrid
-125900,3,1,66,11,Piso,,Bien,,Sí,https://www.fotocasa.es/es/comprar/vivienda/alcala-de-henares/aire-acondicionado-calefaccion-terraza-ascensor/163016743/d,madrid
-299000,3,1,117,2,Piso,Sureste,Bien,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-patio/163016269/d,madrid
-115000,3,2,89,3,Piso,Sur,Muy bien,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-terraza/163015282/d,madrid
-275000,2,2,89,3,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/parking-trastero-ascensor-piscina/163014100/d,madrid
-550000,4,3,341,,Casa o chalet,,,,,https://www.fotocasa.es/es/comprar/vivienda/villanueva-de-la-canada/patio-piscina/163014079/d,madrid
-315000,4,4,250,,Casa o chalet,Sur,Casi nuevo,Gasóleo,,https://www.fotocasa.es/es/comprar/vivienda/torres-de-la-alameda/calefaccion-parking-jardin-terraza-trastero-patio-piscina/163013522/d,madrid
-149990,3,1,71,6,Piso,Sur,Muy bien,,Sí,https://www.fotocasa.es/es/comprar/vivienda/ciempozuelos/aire-acondicionado-calefaccion-terraza-ascensor-se-aceptan-mascotas-internet/163010697/d,madrid
-440000,3,2,126,1,Piso,,A reformar,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/palacio/163010406/d,madrid
-285030,3,1,89,3,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/ascensor/160016028/d,madrid
-80000,2,1,70,2,Piso,,Bien,,,https://www.fotocasa.es/es/comprar/vivienda/aranjuez/foso---moreras/162535329/d,madrid
-481000,2,2,100,1,Piso,,Bien,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/trastero-ascensor-piscina/160445424/d,madrid
-86700,3,1,58,,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/san-andres/161931824/d,madrid
-189900,3,1,75,5,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/leganes/calefaccion-trastero-ascensor-patio-se-aceptan-mascotas-piscina/163006998/d,madrid
-255000,3,1,80,2,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/san-sebastian-de-los-reyes/calefaccion-jardin-terraza-piscina/163004317/d,madrid
-795000,3,3,160,,Piso,Norte,A reformar,,Sí,https://www.fotocasa.es/es/comprar/vivienda/la-moraleja/calefaccion-parking-terraza-trastero-zona-comunitaria-ascensor-piscina-piscina-no-amueblado/163004093/d,madrid
-1290000,3,4,558,,Casa o chalet,,Casi nuevo,Gasóleo,,https://www.fotocasa.es/es/comprar/vivienda/boadilla-del-monte/calefaccion-parking-jardin-terraza-trastero-patio-piscina/162396426/d,madrid
-130000,3,1,80,4,Piso,,Bien,,,https://www.fotocasa.es/es/comprar/vivienda/coslada/la-espinilla---parque-blanco/162588565/d,madrid
-135000,2,1,69,4,Piso,,Muy bien,Gas Natural,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-terraza-patio-television/162995473/d,madrid
-220000,3,2,88,3,Piso,Este,Muy bien,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-parking-terraza-zona-comunitaria-ascensor-parking/162995430/d,madrid
-260000,2,1,49,3,Piso,,,,,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion/162995068/d,madrid
-375000,6,3,115,1,Dúplex,Sur,Bien,Gas Natural,,https://www.fotocasa.es/es/comprar/vivienda/brunete/aire-acondicionado-calefaccion-parking-terraza-trastero/162994963/d,madrid
-85000,3,1,81,,Piso,Este,A reformar,Butano,,https://www.fotocasa.es/es/comprar/vivienda/campo-real/calefaccion-terraza/162994819/d,madrid
-100000,3,1,96,2,Piso,,A reformar,,,https://www.fotocasa.es/es/comprar/vivienda/parla/terraza-trastero-se-aceptan-mascotas/162994505/d,madrid
-710000,3,3,125,4,Piso,Oeste,Casi nuevo,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-terraza-trastero-ascensor/162993663/d,madrid
-369900,4,3,292,,Casa o chalet,,,,,https://www.fotocasa.es/es/comprar/vivienda/parla/aire-acondicionado-calefaccion-parking-trastero-patio-amueblado-parking-se-aceptan-mascotas/162993500/d,madrid
-550000,3,2,123,,Piso,,,,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-ascensor/162993406/d,madrid
-850000,3,3,185,,Casa adosada,,,,,https://www.fotocasa.es/es/comprar/vivienda/san-sebastian-de-los-reyes/aire-acondicionado-calefaccion-parking-jardin-terraza-trastero-patio-piscina/162990589/d,madrid
-286000,2,1,73,4,Piso,,Casi nuevo,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/san-sebastian-de-los-reyes/parking-trastero-zona-comunitaria-ascensor-piscina-no-amueblado/162990363/d,madrid
-350000,3,2,108,3,Piso,Sur,Muy bien,,Sí,https://www.fotocasa.es/es/comprar/vivienda/paracuellos-de-jarama/aire-acondicionado-calefaccion-parking-terraza-trastero-zona-comunitaria-ascensor-piscina/162988840/d,madrid
-1395000,2,2,205,1,Piso,Norte,Casi nuevo,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-terraza-zona-comunitaria-ascensor-patio-piscina-no-amueblado/160950909/d,madrid
-395000,1,1,85,3,Piso,Noroeste,Casi nuevo,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/calefaccion-terraza-zona-comunitaria-ascensor-parking-piscina-no-amueblado/162677587/d,madrid
-176000,3,1,97,4,Piso,,Muy bien,Electricidad,Sí,https://www.fotocasa.es/es/comprar/vivienda/valdemoro/aire-acondicionado-calefaccion-terraza-ascensor/162979968/d,madrid
-269000,3,1,93,4,Piso,Este,A reformar,Gas Natural,Sí,https://www.fotocasa.es/es/comprar/vivienda/madrid-capital/aire-acondicionado-calefaccion-terraza-trastero-ascensor-no-amueblado/162979955/d,madrid
+price,bedrooms,bathrooms,sqm,floor,type,orientation,condition,hot_water,elevator,province
+650000,5,3,203,,Casa adosada,Sur,Bien,Gas Natural,,barcelona
+570000,2,1,93,4,Piso,,,,Sí,barcelona
+375000,2,1,64,,Dúplex,,,,,barcelona
+790000,8,4,328,,Finca rústica,Sur,Casi nuevo,Gas Natural,,barcelona
+1340000,4,3,196,,Casa adosada,,,,,barcelona
+245000,3,1,71,2,Piso,,,,,barcelona
+325000,3,2,104,7,Piso,Este,Bien,Gas Natural,Sí,barcelona
+138000,3,1,55,5,Piso,,,,,barcelona
+720000,3,3,171,,Piso,,,,Sí,barcelona
+1226000,6,5,396,,Casa o chalet,,,,,barcelona
+600000,3,2,113,2,Piso,,,,Sí,barcelona
+420000,3,2,101,6,Piso,,Muy bien,Gas Natural,Sí,barcelona
+131000,3,1,80,,Piso,Suroeste,Casi nuevo,,,barcelona
+339900,3,3,219,,Casa adosada,Sur,Bien,,,barcelona
+895000,6,3,341,,Casa o chalet,,,,,barcelona
+695000,4,2,141,6,Piso,,,,Sí,barcelona
+225000,4,2,81,7,Piso,,,,Sí,barcelona
+325000,4,2,125,2,Piso,,,,,barcelona
+420000,2,1,85,3,Piso,Suroeste,Muy bien,Gas Natural,Sí,barcelona
+360000,3,1,104,4,Piso,Sur,Casi nuevo,,Sí,barcelona
+895000,7,4,352,,Finca rústica,,,,,barcelona
+500000,3,3,97,,Piso,,Casi nuevo,Gas Natural,Sí,barcelona
+549000,3,2,195,,Casa o chalet,,,,,barcelona
+189000,3,1,80,1,Piso,,,,,barcelona
+720000,3,3,151,4,Piso,Noreste,Casi nuevo,Gas Natural,Sí,barcelona
+1195000,3,3,116,3,Piso,Sur,Bien,Gas Natural,Sí,barcelona
+215000,3,,89,,Piso,,Casi nuevo,,Sí,barcelona

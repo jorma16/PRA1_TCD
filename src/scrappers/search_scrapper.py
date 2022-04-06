@@ -58,7 +58,7 @@ class SearchScrapper(Scrapper):
     for i in range(1, self.pages_number + 1):
       l = self.fetch_page(i)
       for item in l:
-        if 'dobleclick' not in item:
+        if 'ad.doubleclick.net' not in item:
           list.append(item)
 
     print(f'Finished, returning {len(list)} elements')
